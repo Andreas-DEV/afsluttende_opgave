@@ -1,0 +1,25 @@
+#navbar {
+    background-color: #7ebe8f;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 1rem;
+
+    li {
+        list-style-type: none;
+
+    }
+
+    a {
+        text-transform: capitalize;
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}

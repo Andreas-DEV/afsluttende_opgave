@@ -1,0 +1,61 @@
+#mainContainer {
+    padding: 1rem;
+    text-align: center;
+
+    #h3 {
+        
+    }
+
+    #input {
+        margin-block: .5rem;
+        padding: .2rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+#loopContainer {
+    max-width: 50%;
+    margin: auto;
+    
+    
+    #articleContainer {
+        width: 800px;
+        margin-block: 3rem;
+        display: flex;
+
+        #articleTitle {
+            margin-top: 1rem;
+        }
+
+        #articleContainer2 {
+            display: flex;
+            gap: 1rem;
+            
+
+            #articleImg {
+                width: 250px;
+                border-radius: 3px;
+            }
+
+            #articleContent {
+                margin-block: .5rem 1rem;
+            }
+
+            #articleLink {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #000000;
+            }
+        }
+    
+    
+    
+        
+    }
+}
+
+#articleLanguage {
+    padding: .2rem;
+    margin-left: .5rem;
+}
